@@ -30,14 +30,7 @@ export const projectsData = [
       "Responsive full stack application that allowed bootcampers to organize networking and social events.",
     tags: ["JavaScript", "PostgreSQL", "NodeJS", "ExpressJS", "Vitest"],
     imageUrl: codeCampusImg,
-  },
-  {
-    title: "codeCampus",
-    description:
-      "Responsive full stack application that allowed bootcampers to organize networking and social events.",
-    tags: ["JavaScript", "PostgreSQL", "NodeJS", "ExpressJS", "Vitest"],
-    imageUrl: codeCampusImg,
-  },
+  }
 ] as const;
 
 export const skillsData = [

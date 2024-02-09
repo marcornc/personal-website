@@ -17,9 +17,9 @@ export default function Intro() {
             height="192"
             quality="95"
             priority={true}
-            className="h-44 w-44 rounded-full object-cover shadow-xl"
+            className="h-44 w-44 rounded-full object-cover shadow-xl border-4 border-solid border-white"
           />
-          <span className="text-4xl absolute bottom-0 right-0">🌞</span>
+          {/* <span className="text-4xl absolute bottom-0 right-0">🌞</span> */}
         </div>
       </div>
 
