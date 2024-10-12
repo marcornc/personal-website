@@ -28,8 +28,9 @@ export const projectsData = [
     title: "codeCampus",
     description:
       "Responsive full stack application that allowed bootcampers to organize networking and social events.",
-    tags: ["JavaScript", "PostgreSQL", "NodeJS", "ExpressJS", "Vitest"],
+    tags: ["JavaScript", "PostgreSQL", "NodeJS", "ExpressJS", "MongoDB"],
     imageUrl: codeCampusImg,
+    url: "https://code-campus-nextjs.vercel.app/",
   }
 ] as const;
 
