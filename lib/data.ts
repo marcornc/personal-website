@@ -1,6 +1,7 @@
 import React from "react";
 
 import codeCampusImg from "@/public/codeCampus.png";
+import beCalmImg from "@/public/beCalm.png"
 
 export const links = [
   {
@@ -31,6 +32,13 @@ export const projectsData = [
     tags: ["JavaScript", "PostgreSQL", "NodeJS", "ExpressJS", "MongoDB"],
     imageUrl: codeCampusImg,
     url: "https://code-campus-nextjs.vercel.app/",
+  },
+  {
+    title: "beCalm",
+    description: "Responsive full stack application that allowed people with anxiety to relax and find a safe space.",
+    tags: ["JavaScript", "Supabase", "Node.js", "Vitest", "Playwright"],
+    imageUrl: beCalmImg,
+    url: "https://github.com/marcornc/beCalm-final-project",
   }
 ] as const;
 
