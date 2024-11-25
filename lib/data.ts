@@ -29,7 +29,7 @@ export const projectsData = [
     title: "codeCampus",
     description:
       "Responsive full stack application that allowed bootcampers to organize networking and social events.",
-    tags: ["JavaScript", "PostgreSQL", "NodeJS", "ExpressJS", "MongoDB"],
+    tags: ["Next.js", "NoSQL", "MongoDB"],
     imageUrl: codeCampusImg,
     url: "https://code-campus-nextjs.vercel.app/",
   },
@@ -50,8 +50,9 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Php",
+  "Python",
   "Tailwind",
   "Express",
   "PostgreSQL",
+  "NoSQL",
 ] as const;
