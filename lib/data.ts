@@ -2,6 +2,7 @@ import React from "react";
 
 import codeCampusImg from "@/public/codeCampus.png";
 import beCalmImg from "@/public/beCalm.png"
+import aiBlogImg from "@/public/AIBlog.png"
 
 export const links = [
   {
@@ -28,6 +29,14 @@ export const projectsData = [
   {
     title: "codeCampus",
     description:
+      "Application to generate a blog post from a youtube link thank to AI",
+    tags: ["Django", "Postgres", "AWS", "OpenAI"],
+    imageUrl: aiBlogImg,
+    url: "https://github.com/marcornc/AI_Blog_App.git",
+  },
+  {
+    title: "codeCampus",
+    description:
       "Responsive full stack application that allowed bootcampers to organize networking and social events.",
     tags: ["Next.js", "NoSQL", "MongoDB"],
     imageUrl: codeCampusImg,
@@ -43,6 +52,8 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Python",
+  "Django",
   "HTML",
   "CSS",
   "JavaScript",
@@ -50,7 +61,6 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Python",
   "Tailwind",
   "Express",
   "PostgreSQL",

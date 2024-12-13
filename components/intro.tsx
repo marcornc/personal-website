@@ -11,7 +11,7 @@ export default function Intro() {
       <div className="flex items-center justify-center">
         <div className="relative ">
           <Image
-            src="/profile-img.jpg"
+            src="/profile-img.png"
             alt="profile picture of Marco"
             width="192"
             height="192"
